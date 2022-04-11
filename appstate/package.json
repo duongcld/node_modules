@@ -1,0 +1,34 @@
+{
+  "name": "appstate",
+  "version": "2.1.2",
+  "description": "Barebone state manager implementation based on Cerebral signals conception",
+  "main": "./src/appstate.js",
+  "devDependencies": {
+    "baobab": "^2.1.0",
+    "eslint": "^1.1.0",
+    "lab": "^7.2.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "lab test/suites/*.js -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catbee/appstate.git"
+  },
+  "keywords": [
+    "state",
+    "manager",
+    "baobab",
+    "middleware"
+  ],
+  "author": {
+    "name": "Kirill Kaysarov",
+    "url": "http://github.com/markuplab"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catbee/appstate/issues"
+  },
+  "homepage": "https://github.com/catbee/appstate"
+}
